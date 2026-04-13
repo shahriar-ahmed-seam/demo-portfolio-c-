@@ -1,4 +1,5 @@
 import type { TrainerProfile } from '../../data/portfolioData'
+import heroImg from '../../assets/hero.png'
 
 interface HeroSectionProps {
   profile: TrainerProfile
@@ -20,7 +21,7 @@ function HeroSection({ profile }: HeroSectionProps) {
 
       <aside className="hero-panel card" aria-label="Trainer Stats Explorer">
         <img 
-          src="/trainer-sprite.png" 
+          src={heroImg} 
           alt={`${profile.trainerName} Trainer Avatar`} 
           className="trainer-sprite"
           onError={(e) => (e.currentTarget.style.display = 'none')}
