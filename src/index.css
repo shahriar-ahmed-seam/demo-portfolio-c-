@@ -1,0 +1,57 @@
+:root {
+  --bg: #f6f8fb;
+  --surface: #ffffff;
+  --surface-strong: #f2f5ff;
+  --border: #d9e1f2;
+  --text: #2f3a55;
+  --text-strong: #1a2440;
+  --muted: #627191;
+  --chip-bg: #fff7cc;
+  --status-live: #ccffd8;
+  --status-scaling: #d8ebff;
+  --status-research: #ffe7cc;
+
+  font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: radial-gradient(circle at top right, #ffe2c9, var(--bg) 40%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--text-strong);
+}
+
+a {
+  color: inherit;
+}
